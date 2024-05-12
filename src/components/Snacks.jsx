@@ -1,8 +1,8 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import { product } from "./Product";
+import { snack } from "./Snack";
 
- export default function Products(){
+ export default function Snacks(){
 
     const responsive = {
         superLargeDesktop: {
@@ -23,7 +23,7 @@ import { product } from "./Product";
         }
       };
 
-      const producto = product.map(prod => 
+      const producto = snack.map(prod => 
         <div className="card" key={prod.id}>
             <img src={prod.img} alt={prod.name} />
             <h4>{prod.name}</h4>
@@ -38,7 +38,7 @@ import { product } from "./Product";
         
         <>
         <section className="content__product">
-        <h1 className="main__section">Postres<span>.</span></h1>
+        <h1 className="main__info">Snacks<span>.</span></h1>
         <Carousel className="slider" responsive={responsive}>
             {producto}
         </Carousel>

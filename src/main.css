@@ -137,7 +137,13 @@ span{
 
 .slider{
     margin-top: 40px;
-    padding: 20px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .card > h4{
@@ -164,11 +170,32 @@ span{
     text-decoration: line-through;
 }
 
+.cards{
+    background-color: antiquewhite;
+}
+
+.main__info{
+    margin-top: 60px;
+    font-size: 2rem;
+}
+
+ul, li{
+    padding: 0%;
+}
+
 @media screen and (max-width: 900px) {
 
    .encabezado{
     justify-content: center;
     text-align: center;
+   }
+
+   .info__main > h1{
+    font-size: 2rem;
+   }
+
+   .info__main > h2{
+    font-size: 1.1rem;
    }
     
     .hero{
