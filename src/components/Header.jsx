@@ -12,9 +12,9 @@ export default function Header(){
             </div>
 
             <nav className='menu__main'>
-                <a href="#">Inicio</a>
-                <a href="#">Productos</a>
-                <a href="#">Ubicación</a>
+                <a href="#inicio">Inicio</a>
+                <a href="#productos">Productos</a>
+                <a href="#ubicacion">Ubicación</a>
             </nav>
 
         </header>
