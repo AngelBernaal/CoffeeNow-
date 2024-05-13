@@ -30,6 +30,7 @@ import { snack } from "./Snack";
             <div className="info__general">
             <p className="rebaja">{prod.rebaja}</p>
             <p className="precio">{prod.precio}</p>
+            <a href="#" className="enlace">Ver más</a>
             </div>
         </div>
         )

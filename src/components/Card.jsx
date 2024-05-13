@@ -5,12 +5,12 @@ export default function Card(){
     return(
         <>
         <section className="content__product">
-        <p className="main__product">Encuentra las ultimas novedades.</p>
+        <p className="main__product">Ultimas novedades.</p>
         <h1 className="main__section">Novedades<span>.</span></h1>
 
         <div className="content__main">
         <div className="info__content">
-        <h2 className='space'>Nuevos productos.</h2>
+        <h2 className='space'>Todo lo que ofrecemos.</h2>
         <p className='space'>Encuentra nuestros nuevos productos y disfruta de un espacio seguro y agradable.</p>
         <ul>
             <li>Precios accesibles</li>
